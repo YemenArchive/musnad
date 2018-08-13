@@ -1,0 +1,236 @@
+@import url(//fonts.googleapis.com/earlyaccess/notokufiarabic.css);
+@import url(//fonts.googleapis.com/earlyaccess/notonaskharabic.css);
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@font-face {
+    font-family: 'Sultan Musnad-Arabic';
+    src: url('../fonts/subset-SultanMusnadArabic.woff2') format('woff2'),
+        url('../fonts/subset-SultanMusnadArabic.woff') format('woff'),
+        url('../fonts/subset-SultanMusnadArabic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sf osa musnad ser Normal';
+    src: url('../fonts/subset-sfosamusnadserNormal-Normal.woff2') format('woff2'),
+        url('../fonts/subset-sfosamusnadserNormal-Normal.woff') format('woff'),
+        url('../fonts/subset-sfosamusnadserNormal-Normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sf osa musnad';
+    src: url('../fonts/hinted-subset-sfosamusnadBold-Bold.eot');
+    src: url('../fonts/hinted-subset-sfosamusnadBold-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/hinted-subset-sfosamusnadBold-Bold.woff2') format('woff2'),
+        url('../fonts/hinted-subset-sfosamusnadBold-Bold.woff') format('woff'),
+        url('../fonts/hinted-subset-sfosamusnadBold-Bold.ttf') format('truetype'),
+        url('../fonts/hinted-subset-sfosamusnadBold-Bold.svg#sfosamusnadBold-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sf osa musnad';
+    src: url('../fonts/hinted-subset-sfosamusnad-Normal.eot');
+    src: url('../fonts/hinted-subset-sfosamusnad-Normal.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/hinted-subset-sfosamusnad-Normal.woff2') format('woff2'),
+        url('../fonts/hinted-subset-sfosamusnad-Normal.woff') format('woff'),
+        url('../fonts/hinted-subset-sfosamusnad-Normal.ttf') format('truetype'),
+        url('../fonts/hinted-subset-sfosamusnad-Normal.svg#sfosamusnad-Normal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body,
+html {
+  touch-action: manipulation;
+    height: 100%;
+  margin: 0;}
+
+body {
+
+    color: #191e3f;
+    direction: rtl;
+    font-family: 'Noto Sans Old South Arabian','Noto Kufi Arabic','Noto Sans', sans-serif;
+
+}
+textarea {
+
+  font-size: 40px;
+  border: none;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.09);
+ width: 100%;
+  height: 100px;
+  padding: 20px;
+  margin-top: 10px;
+    font-family: 'Noto Sans Old South Arabian','Sultan Musnad-Arabic','Noto Kufi Arabic','Noto Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+text-align: start;
+text-transform: none;
+word-spacing: normal;
+letter-spacing: normal;
+vertical-align: text-bottom;
+cursor: text;
+resize: both;
+}
+
+.simple-keyboard.hg-theme-default.myTheme {
+  width: 100%;
+  font-family: 'Noto Sans Old South Arabian','Noto Kufi Arabic','Noto Sans', sans-serif;
+
+}
+
+
+.simple-keyboard.hg-layout-default  {
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.09);
+  z-index: 1;
+}
+.simple-keyboard {overflow:auto;
+}
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.head {
+  text-align: center;
+}
+.musnad-guide {
+      font-family: 'Noto Sans Old South Arabian','Sultan Musnad-Arabic', 'Noto Kufi Arabic','Noto Sans', sans-serif;
+      font-weight: normal;
+      font-size: 30px;
+}
+.musnad-arabic {
+      font-family: 'Noto Sans Old South Arabian','Sultan Musnad-Arabic', 'Noto Kufi Arabic','Noto Sans', sans-serif;
+      font-weight: normal;  
+}
+.musnad-sultan1 {
+      font-family: 'Noto Sans Old South Arabian','sf osa musnad ser Normal', 'Noto Kufi Arabic','Noto Sans', sans-serif;
+}
+.musnad-sultan2 {
+        font-family: 'Noto Sans Old South Arabian','sf osa musnad', 'Noto Kufi Arabic','Noto Sans', sans-serif;
+}
+.musnad-sultan2bold {
+        font-family: 'Noto Sans Old South Arabian','sf osa musnad', 'Noto Kufi Arabic','Noto Sans', sans-serif;
+        font-weight: bold; 
+}
+.arabic {
+  font-family: 'Noto Kufi Arabic','Noto Sans', sans-serif;
+        font-size: 30px;
+
+}
+
+
+/* select-css.css */
+.custom-dropdown {
+  position: relative;
+  float: left;
+  vertical-align: middle;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.09);
+}
+
+.custom-dropdown select::-ms-expand {
+    display: none;
+}
+
+.custom-dropdown select {
+  background-color: #fff;
+  color: #191e3f;
+  font-size: inherit;
+  font-family: 'Noto Kufi Arabic','Noto Sans', sans-serif;
+  padding: .5em;
+  padding-right: 2.5em; 
+  border: 0;
+  margin: 0;
+  border-radius: 3px;
+  text-indent: 0.01px;
+  text-overflow: '';
+  appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;}
+
+.custom-dropdown::before,
+.custom-dropdown::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+
+.custom-dropdown::after { 
+  content: "\25BC";
+  height: 1em;
+  font-size: .625em;
+  line-height: 1;
+  right: 1.2em;
+  top: 50%;
+  margin-top: -.5em;
+}
+
+.custom-dropdown::before { 
+  width: 2em;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.custom-dropdown select[disabled] {
+  color: rgba(0,0,0,.3);
+}
+
+.custom-dropdown select[disabled]::after {
+  color: rgba(0,0,0,.1);
+}
+
+.custom-dropdown::before {
+  background-color: rgba(0,0,0,.15);
+}
+
+.custom-dropdown::after {
+  color: rgba(0,0,0,.4);
+}
+
+canvas{
+    border: 1px black solid;
+    direction: ltr;
+    text-align: right;
+}
+#textCanvas{
+    display: none;
+}
+#image{
+  height: 50px;
+}
+.btn {
+  outline: none;
+  float: left;
+  cursor: pointer;
+vertical-align: middle;
+  text-decoration: none;
+  padding: .5em;
+
+}
+.footer {
+  clear: both;
+    position: relative;
+    z-index: 10;
+    height: 1em;
+    margin-top: 2em;
+    text-align: center;
+}
+.credits{
+  font-size: 10px;
+}
+.guide-list {
+  list-style: none;
+}
+.guide-list ol {
+  text-decoration: none;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.09);
+  vertical-align: middle;
+border-radius: 5px;
+font-weight: bold;
+padding: 20px;
+
+}
