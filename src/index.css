@@ -42,6 +42,15 @@
     font-style: normal
 }
 
+@font-face {
+    font-family: 'sf osa';
+    src: url(../fonts/hinted-subset-sfosamusnad-Normal.eot);
+    src: url('../fonts/hinted-subset-sfosamusnad-Normal.eot?#iefix') format('embedded-opentype'), url(../fonts/hinted-subset-sfosamusnad-Normal.woff2) format('woff2'), url(../fonts/hinted-subset-sfosamusnad-Normal.woff) format('woff'), url(../fonts/hinted-subset-sfosamusnad-Normal.ttf) format('truetype'), url('../fonts/hinted-subset-sfosamusnad-Normal.svg#sfosamusnad-Normal') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    unicode-range: U+10A60-10A7F;
+}
+
 body,
 html {
     touch-action: manipulation;
@@ -52,7 +61,7 @@ html {
 body {
     color: #191e3f;
     direction: rtl;
-    font-family: 'Noto Sans OldSouArab', 'Noto Kufi Arabic', 'Noto Sans', sans-serif
+    font-family: 'Noto Sans OldSouArab', 'Noto Kufi Arabic', 'Noto Sans', sans-serif;
 }
 
 textarea {
@@ -63,7 +72,7 @@ textarea {
     height: 100px;
     padding: 20px;
     margin-top: 10px;
-    font-family: 'Noto Sans OldSouArab', 'Sultan Musnad-Arabic', 'Noto Kufi Arabic', 'Noto Sans', sans-serif;
+    font-family: 'sf osa','Noto Sans OldSouArab', 'Sultan Musnad-Arabic', 'Noto Kufi Arabic', 'Noto Sans', sans-serif;
     text-rendering: optimizeLegibility;
     text-align: start;
     text-transform: none;
