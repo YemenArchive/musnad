@@ -3,12 +3,12 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 @font-face {
     font-family: 'Noto Sans OldSouArab';
-    src: url('../hinted-subset-NotoSansOldSouthArabian-Regular.eot');
-    src: url('../hinted-subset-NotoSansOldSouthArabian-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../hinted-subset-NotoSansOldSouthArabian-Regular.woff2') format('woff2'),
-        url('../hinted-subset-NotoSansOldSouthArabian-Regular.woff') format('woff'),
-        url('../hinted-subset-NotoSansOldSouthArabian-Regular.ttf') format('truetype'),
-        url('../hinted-subset-NotoSansOldSouthArabian-Regular.svg#NotoSansOldSouthArabian-Regular') format('svg');
+    src: url('../fonts/hinted-subset-NotoSansOldSouthArabian-Regular.eot');
+    src: url('../fonts/hinted-subset-NotoSansOldSouthArabian-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/hinted-subset-NotoSansOldSouthArabian-Regular.woff2') format('woff2'),
+        url('../fonts/hinted-subset-NotoSansOldSouthArabian-Regular.woff') format('woff'),
+        url('../fonts/hinted-subset-NotoSansOldSouthArabian-Regular.ttf') format('truetype'),
+        url('../fonts/hinted-subset-NotoSansOldSouthArabian-Regular.svg#NotoSansOldSouthArabian-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
