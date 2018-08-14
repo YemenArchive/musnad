@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20170731 at Tue Aug 14 17:49:20 2018
+ By Aleksey,,,
+Copyright 2017 Google Inc. All Rights Reserved.
+</metadata>
+<defs>
+<font id="NotoSansOldSouthArabian-Regular" horiz-adv-x="260" >
+  <font-face 
+    font-family="Noto Sans OldSouArab"
+    font-weight="400"
+    font-stretch="normal"
+    units-per-em="1000"
+    panose-1="2 11 5 2 4 5 4 2 2 4"
+    ascent="800"
+    descent="-200"
+    bbox="33 0 298 666"
+    underline-thickness="50"
+    underline-position="-175"
+    unicode-range="U+0020-0020"
+  />
+<missing-glyph horiz-adv-x="364" 
+d="M33 0v666h265v-666h-265zM66 33h199v600h-199v-600z" />
+    <glyph glyph-name=".notdef" horiz-adv-x="364" 
+d="M33 0v666h265v-666h-265zM66 33h199v600h-199v-600z" />
+    <glyph glyph-name="uni0000" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="uni000D" 
+ />
+    <glyph glyph-name="space" unicode=" " 
+ />
+  </font>
+</defs></svg>
