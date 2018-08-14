@@ -80,12 +80,18 @@ textarea {
     letter-spacing: normal;
     vertical-align: text-bottom;
     cursor: text;
-    resize: both
+    resize: both;
+    font-weight: 500;
+    color: #191e3f;
 }
 
 .simple-keyboard.hg-theme-default.myTheme {
     width: 100%;
-    font-family: 'Noto Sans OldSouArab', 'Noto Kufi Arabic', 'Noto Sans', sans-serif
+    font-family: 'Noto Sans OldSouArab', 'Noto Kufi Arabic', 'Noto Sans', sans-serif;
+    font-weight: 500;
+    color: #191e3f;
+
+
 }
 
 .simple-keyboard.hg-layout-default {
